@@ -226,4 +226,7 @@ public class CheckoutDemo {
 }
 
 ```
-
+Observation
+OCP
+For each additional test case checkout function needs to be modified. The principle of O – Open/Closed Principle (OCP) is defined as
+Software entities (classes, functions, etc.) should be open for extension but closed for modification whereas in this case if in future we want to add a new payment type, we need to modify checkout function by adding another case.This violates OCP because the module isn’t closed for modification. 
